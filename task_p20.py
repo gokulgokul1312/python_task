@@ -1,0 +1,7 @@
+print("I will add up the numbers you give me.\n")
+sum=0
+num=int(input("Enter the number:\n"))
+while num != 0:
+    sum += num
+    num=int(input("Enter the number:\n"))
+print("The total is {}".format(sum))
