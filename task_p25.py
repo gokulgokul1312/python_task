@@ -25,4 +25,5 @@ def month_name(month_number):
         return "DECEMBER"
     else:
         return "ERROR"
-    print("Today is: ",month_name(5))
+month_name(12)
+print("This month is: ",month_name(12))
