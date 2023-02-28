@@ -21,13 +21,13 @@ def view_order():
     global reduce
     global price
     price=10*reduce
-    print("You have {}.".format(reduce))
+    print("You have {} keychains.".format(reduce))
     print("Keychains start $10 each.")
     print("Total price is ${}.".format(price))
 
 def check_out():
     name=input("What is your name? ")
-    print("You have {} keychains.")
+    print("You have {} keychains.".format(reduce))
     print("Keychains cost $10 each.")
     print("Total cost is ${}.".format(price))
     print("Thanks for your order, {}!".format(name))
